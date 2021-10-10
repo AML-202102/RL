@@ -2,6 +2,8 @@
 
 ## Part 1: Basic Q-learning using Frozen Lake environment (2.5 points)
 
+![frozen_lake](frozen_lake.png)
+
 OpenAI created a library called [gym](https://gym.openai.com/envs/#classic_control), which provides several environments to visualize the result of your reinforcement learning algorithms. In this part, you will use the Frozen Lake environment. For better visualization, this part must be run on Jupyter as we provide a Jupyter Notebook. The updated Jupyter Notebook must be submitted to the repository before October, 25th. 
 
 ### Initialization (0.5 point)
@@ -24,7 +26,7 @@ Add your final Q-table to your report and explain the different values (some clo
 
 You will work on the 3 following parameters: learning_rate, discount_rate, exploration_decay_rate. Choose 2 other values than the one already implemented in the baseline for each parameter and perform a search grid ( you must get 9 experiments at the end). Add your results to the report, discuss your value choices and conclude about the best parameters combination. 
 
-## Part 2 : Deep Q-Network using CartPole environment (2.5 points)
+## Part 2: Deep Q-Network using CartPole environment (2.5 points)
 
 The CartPole environment is also provided by the gym library. The aim is to keep the pole as vertical as possible by moving right or left. If the pole reaches an angle bigger than 15° or -15° the episode is over. The objective of the game is to reach 195 moves in one episode, which means keeping the pole in the [-15°;15°] range for 195 moves. 
 
@@ -58,12 +60,23 @@ Choose one parameter and use three other values than the baseline one to do your
 Implement another artificial neural network of your choice (**hint:** some neural networks may be more suitable for image input) to replace the current DQN. Update your code accordingly and run it. Explain your choice and discuss the results.
 
 ### Bonus 
+
+![environments](environments.PNG)
+
   1) **With your best parameter for DQN**, run your code on another [classic control environment](https://gym.openai.com/envs/#classic_control) (**hint:** do some researches about the action space of your new environment). Are your results for the new environment as good as the one for the previous environment? Try to explain why they are similar or different. (1 point)
   2) The best DQN results will obtain a 0.5 bonus point.
 
+## Final Submission:
+
+Before Monday 25th at 23:59. The final commit should include:
+
+  1) Your report, it must be a *.pdf* named as LastName_Name. Use two columns format and reference properly. 
+  2) Jupyter Notebook modified.
+  3) *DQN.py* modified. 
+
 ## Acknowledgment
 
-This task was created with the help of the following sources:
+This homework was created with the help of the following sources:
 
 https://gym.openai.com/envs/FrozenLake-v0/
 
