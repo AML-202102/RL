@@ -4,7 +4,7 @@
 
 ![frozen_lake](frozen_lake.png)
 
-OpenAI created a library called [gym](https://gym.openai.com/envs/#classic_control), which provides several environments to visualize the result of your reinforcement learning algorithms. In this part, you will use the Frozen Lake environment. For better visualization, this part must be run on Jupyter as we provide a Jupyter Notebook. The updated Jupyter Notebook must be submitted to the repository before October, 25th. 
+OpenAI created a library called [gym](https://gym.openai.com/envs/#classic_control), which provides several environments to visualize the result of your reinforcement learning algorithms. In this part, you will use the Frozen Lake environment. For better visualization, this part must be run on Jupyter in your local computer (CPU) as we provide a Jupyter Notebook. The updated Jupyter Notebook must be submitted to the repository before October, 25th. 
 
 ### Initialization (0.5 point)
 
@@ -30,7 +30,7 @@ You will work on the 3 following parameters: learning_rate, discount_rate, explo
 
 The CartPole environment is also provided by the gym library. The aim is to keep the pole as vertical as possible by moving right or left. If the pole reaches an angle bigger than 15° or -15° the episode is over. The objective of the game is to reach 195 moves in one episode, which means keeping the pole in the [-15°;15°] range for 195 moves. 
 
-To run your scripts correctly, you should create a conda environment and download the following libraries. 
+To run your scripts correctly, you should run it on a server with GPU, create a conda environment and download the following libraries. 
 
     #Setup
     conda create --name RL
