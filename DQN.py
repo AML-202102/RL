@@ -188,14 +188,14 @@ class QValues():
     
     @staticmethod
     ##################################TO DO###################################
-    ##              Remplace None (x2) with the correct network             ##
+    ##              Replace None (x2) with the correct network             ##
     def get_current(None, states, actions):
         return None(states).gather(dim=1, index=actions.unsqueeze(-1))
     ##########################################################################
     
     @staticmethod
     ##################################TO DO###################################
-    ##              Remplace None (x2) with the correct network             ##
+    ##              Replace None (x2) with the correct network             ##
     def get_next(None, next_states):
         final_state_locations = next_states.flatten(start_dim=1).max(dim=1)[0].eq(0).type(torch.bool) #enable not to pass final state into the None_net (q_values for these ones are 0) 
         non_final_state_locations = (final_state_locations == False)
@@ -271,7 +271,7 @@ for episode in range(num_episodes):
             states, actions, rewards, next_states = extract_tensors(experiences)
             
             ##############################TO DO###############################
-            ###        Remplace None with the correct network              ##                  
+            ###        Replace None with the correct network              ##                  
             current_q_values = QValues.get_current(None, states, actions)
             next_q_values = QValues.get_next(None, next_states)
             ##################################################################
