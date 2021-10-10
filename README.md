@@ -26,9 +26,9 @@ You will work on the 3 following parameters: learning_rate, discount_rate, explo
 
 ## Part 2 : Deep Q-Network using CartPole environment (2.5 points)
 
-The CartPole environment is also provided by the gym library. The aim is to keep the pole as verticale as possible by moving right or left. If the pole reach an angle bigger than 15° or -15° the episode is over. The objective of the game is to reach 195 moves in one episode, which means keeping the pole in the [-15°;15°] range for 195 moves. 
+The CartPole environment is also provided by the gym library. The aim is to keep the pole as vertical as possible by moving right or left. If the pole reaches an angle bigger than 15° or -15° the episode is over. The objective of the game is to reach 195 moves in one episode, which means keeping the pole in the [-15°;15°] range for 195 moves. 
 
-In order to run your scripts correctly, you should create a conda environment and download the following libraries. 
+To run your scripts correctly, you should create a conda environment and download the following libraries. 
 
     #Setup
     conda create --name RL
@@ -40,25 +40,25 @@ In order to run your scripts correctly, you should create a conda environment an
     pip install pyglet
     pip install ipython
     
-Start by reading the script carrefuly. You may not understand everything but you should recognize some concepts discussed in class (ReplayMemory, Agent, EpsilonGreedyStrategy, QValues) and the training loop process. 
+Start by reading the script carrefully. You may not understand everything but you should recognize some concepts discussed in class (ReplayMemory, Agent, EpsilonGreedyStrategy, QValues) and the training loop process. 
 
-### Initialization (0.75 point)
+### Initialization (0.75 points)
 
   1) We know that Deep Q-Network takes images as input, therefore add the correct input dimensions to the script in the DQN class. 
-  2) Before running the baseline, you must choose the correct network to use in the get_current and get_next functions of the QValues class. According to your choice, you must also remplace the "None" in the training loop. 
+  2) Before running the baseline, you must choose the correct network to use in the get_current and get_next functions of the QValues class. According to your choice, you must also replace the "None" in the training loop. 
 
-Now, you can run the baseline and visualize your algorithm learning how to keep the pole verticale. You must add the final plot to your report and discuss you result. Explain why the **average** line is 0 until 100 episodes. 
+Now, you can run the baseline and visualize your algorithm learning how to keep the pole vertical. You must add the final plot to your report and discuss your results. Explain why the **average** line is 0 until 100 episodes. 
 
 ### Experiment (1 point)
 
 Choose one parameter and use three other values than the baseline one to do your experiments. Explain your choices, add your results and discuss them in your report. 
 
-### Implement another artificial neural network to remplace the current DQN (0.75 point)
+### Implement another artificial neural network to replace the current DQN (0.75 points)
 
-Implement another artificial neural network of your choice (**hint:** some neural networks may be more suitable for image input) to remplace the current DQN. Update your code accordingly and run it. Explain your choice and discuss the results.
+Implement another artificial neural network of your choice (**hint:** some neural networks may be more suitable for image input) to replace the current DQN. Update your code accordingly and run it. Explain your choice and discuss the results.
 
 ### Bonus 
-  1) **With your best parameter for DQN**, run your code on another [classic control environment](https://gym.openai.com/envs/#classic_control) (**hint:** do some researches about the action space of your new environment). Are your results for the new environnment as good as the one for the previous environment? Try to explain why they are similar or different. (1 point)
+  1) **With your best parameter for DQN**, run your code on another [classic control environment](https://gym.openai.com/envs/#classic_control) (**hint:** do some researches about the action space of your new environment). Are your results for the new environment as good as the one for the previous environment? Try to explain why they are similar or different. (1 point)
   2) The best DQN results will obtain a 0.5 bonus point.
 
 ## Acknowledgment
