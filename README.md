@@ -48,9 +48,14 @@ Start by reading the script carrefuly. You may not understand everything but you
 
 Now, you can run the baseline and visualize your algorithm learning how to keep the pole verticale. You must add the final plot to your report and discuss you result. Explain why the average line is 0 until 100 episodes. 
 
-##Acknowledgment
+## Acknowledgment
+
 This task was created with the help of the following sources:
+
 https://gym.openai.com/envs/FrozenLake-v0/
+
 https://gym.openai.com/envs/#classic_control
+
 https://www.youtube.com/playlist?list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv
+
 https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
