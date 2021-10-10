@@ -24,7 +24,7 @@ Add your final Q-table to your report and explain the different values (some clo
 
 ### Experiments (1 point)
 
-You will work on the 3 following parameters: learning_rate, discount_rate, exploration_decay_rate. Choose 2 other values than the one already implemented in the baseline for each parameter and perform a search grid ( you must get 9 experiments at the end). Add your results to the report, discuss your value choices and conclude about the best parameters combination. 
+You will work on the 3 following parameters: learning_rate, discount_rate, exploration_decay_rate. Choose 2 other values than the one already implemented in the baseline for each parameter and perform a search grid ( you must get 9 experiments at the end, each experiment should last 2 to 5 minutes). Add your results to the report, discuss your value choices and conclude about the best parameters combination. 
 
 ## Part 2: Deep Q-Network using CartPole environment (2.5 points)
 
@@ -49,7 +49,7 @@ Start by reading the script carrefully. You may not understand everything but yo
   1) We know that Deep Q-Network takes images as input, therefore add the correct input dimensions to the script in the DQN class. 
   2) Before running the baseline, you must choose the correct network to use in the get_current and get_next functions of the QValues class. According to your choice, you must also replace the "None" in the training loop. 
 
-Now, you can run the baseline and visualize your algorithm learning how to keep the pole vertical. You must add the final plot to your report and discuss your results. Explain why the **average** line is 0 until 100 episodes. 
+Now, you can run the baseline (it should last around 30 minutes) and visualize your algorithm learning how to keep the pole vertical. You must add the final plot to your report and discuss your results. Explain why the **average** line is 0 until 100 episodes. 
 
 ### Experiments (1 point)
 
