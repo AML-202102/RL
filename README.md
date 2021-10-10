@@ -61,5 +61,15 @@ Implement another artificial neural network of your choice (**hint:** some neura
   1) **With your best parameter for DQN**, run your code on another [classic control environment](https://gym.openai.com/envs/#classic_control) (**hint:** do some researches about the action space of your new environment). Are your results for the new environnment as good as the one for the previous environment? Try to explain why they are similar or different. (1 point)
   2) The best DQN results will obtain a 0.5 bonus point.
 
-#Acknowledgment
+## Acknowledgment
+
+This task was created with the help of the following sources:
+
+https://gym.openai.com/envs/FrozenLake-v0/
+
+https://gym.openai.com/envs/#classic_control
+
+https://www.youtube.com/playlist?list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv
+
+https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
 
