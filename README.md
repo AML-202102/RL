@@ -72,7 +72,7 @@ Before Monday 25th at 23:59. The final commit should include:
 
   1) Your report, it must be a *.pdf* named as LastName_Name. Use two columns format and reference properly. 
   2) Jupyter Notebook modified.
-  3) *DQN.py* modified. 
+  3) DQN *.py* modified. 
 
 ## Acknowledgment
 
