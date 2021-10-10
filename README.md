@@ -4,7 +4,7 @@
 
 ![frozen_lake](frozen_lake.png)
 
-OpenAI created a library called [gym](https://gym.openai.com/envs/#classic_control), which provides several environments to visualize the result of your reinforcement learning algorithms. In this part, you will use the Frozen Lake environment. For better visualization, this part must be run on Jupyter in your local computer (CPU) as we provide a Jupyter Notebook. The updated Jupyter Notebook must be submitted to the repository before October, 25th. 
+OpenAI created a library called [gym](https://gym.openai.com/envs/#classic_control), which provides several environments to visualize the result of your reinforcement learning algorithms. In this part, you will use the Frozen Lake environment. For better visualization, this part must be run on Jupyter in your local computer (CPU) as we provide a Jupyter Notebook. All the useful libraries are included in the first cell of the Jupyter Notebook, therefore you only have to run this cell to be set up for this first part of the homework. The updated Jupyter Notebook must be submitted to the repository before October, 25th. 
 
 ### Initialization (0.5 point)
 
