@@ -49,7 +49,7 @@ Start by reading the script carrefully. You may not understand everything but yo
 
 Now, you can run the baseline and visualize your algorithm learning how to keep the pole vertical. You must add the final plot to your report and discuss your results. Explain why the **average** line is 0 until 100 episodes. 
 
-### Experiment (1 point)
+### Experiments (1 point)
 
 Choose one parameter and use three other values than the baseline one to do your experiments. Explain your choices, add your results and discuss them in your report. 
 
