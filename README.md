@@ -26,10 +26,12 @@ You will work on the 3 following parameters: learning_rate, discount_rate, explo
 
 ## Part 2 : Deep Q-Network using CartPole environment (2.5 points)
 
+The CartPole environment is also provided by the gym library. The aim is to keep the pole as verticale as possible by moving right or left. If the pole reach an angle bigger than 15° or -15° the episode is over. The objective of the game is to reach 195 moves in one episode, which means keeping the pole in the [-15°;15°] range for 195 moves. 
+
 In order to run your scripts correctly, you should create a conda environment and download the following libraries. 
 
     #Setup
-    conda create -name RL
+    conda create --name RL
     conda activate RL
     conda install python==3.9
     conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
@@ -37,7 +39,14 @@ In order to run your scripts correctly, you should create a conda environment an
     pip install gym
     pip install pyglet
     
-### Understanding DQN 
+Start by reading the script carrefuly. You may not understand everything but you should recognize some concepts discussed in class (ReplayMemory, Agent, EpsilonGreedyStrategy, QValues) and the training loop process. 
+
+### Initialization
+
+  1) We know that Deep Q-Network takes images as input, therefore add the correct input dimensions to the script in the DQN class. 
+  2) Before running the baseline, you must choose the correct network to use in the get_current and get_next functions of the QValues class. According to your choice, you must also remplace the "None" in the training loop. 
+
+Now, you can run the baseline and visualize your algorithm learning how to keep the pole verticale. You must add the final plot to your report and discuss you result. Explain why the average line is 0 until 100 episodes. 
 
 #Acknowledgment
 
